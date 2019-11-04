@@ -15,6 +15,7 @@ $color__text--light: #828382;
 // * UI Element Styles
 $shadow: 0 1px 2px rgba(0,0,0,0.15);
 $border-radius: 2px;
+$font: 'Roboto', sans-serif;
 
 // ? </--------- VARIABLES --------->
 
@@ -27,4 +28,5 @@ body {
     padding: 0;
     background: $color__body-1;
     color: $color__text;
+    font-family: $font;
 }
