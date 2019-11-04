@@ -1,0 +1,30 @@
+
+// ? <--------- VARIABLES --------->
+
+// * Colors:
+$color__body-1: #F8F8F7;
+$color__body-2: #FCFCFC;
+$color__body-3: #F1F4FA;
+$color__element: #FFF;
+$color__accent-main: #2176ff;
+$color__accent-main--transparent: rgba(33, 118, 255, 0.05);
+$color__accent-secundary: #59BA41;
+$color__text: #404040;
+$color__text--light: #828382;
+
+// * UI Element Styles
+$shadow: 0 1px 2px rgba(0,0,0,0.15);
+$border-radius: 2px;
+
+// ? </--------- VARIABLES --------->
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $color__body-1;
+    color: $color__text;
+}
