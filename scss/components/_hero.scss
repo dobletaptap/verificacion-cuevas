@@ -1,4 +1,5 @@
 .c-hero {
+    height: 70vh;
     &__title {
         font-size: 3em;
     }
@@ -18,5 +19,6 @@
         letter-spacing: 1px;
         padding: 12px 24px;
         border-radius: $border-radius;
+        box-shadow: $shadow;
     }
 }
