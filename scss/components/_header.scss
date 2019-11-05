@@ -1,0 +1,24 @@
+.c-header {
+    background: $color__accent-main;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: $shadow;
+    
+    &__list {
+        display: flex;
+        padding: 0;
+    }
+
+    &__item {
+        list-style: none;
+        margin-left: 12px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+}

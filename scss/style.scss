@@ -7,7 +7,7 @@ $color__body-2: #FCFCFC;
 $color__body-3: #F1F4FA;
 $color__element: #FFF;
 $color__accent-main: #2176ff;
-$color__accent-main--transparent: rgba(33, 118, 255, 0.05);
+$color__accent-main--transparent: #2176ff0d;
 $color__accent-secundary: #59BA41;
 $color__text: #404040;
 $color__text--light: #828382;
@@ -30,3 +30,7 @@ body {
     color: $color__text;
     font-family: $font;
 }
+
+// ? <--------- COMPONENTS --------->
+@import './components/header'
+// ? </--------- COMPONENTS --------->
