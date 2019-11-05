@@ -1,0 +1,22 @@
+.c-hero {
+    &__title {
+        font-size: 3em;
+    }
+
+    &__subtitle {
+        font-size: 1.6em;
+        color: $color__text--light;
+    }
+
+    &__cta {
+        box-sizing: initial;
+        text-decoration: none;
+        color: white;
+        background: $color__accent-main;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 12px 24px;
+        border-radius: $border-radius;
+    }
+}

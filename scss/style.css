@@ -43,4 +43,26 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.c-hero__title {
+  font-size: 3em;
+}
+
+.c-hero__subtitle {
+  font-size: 1.6em;
+  color: #828382;
+}
+
+.c-hero__cta {
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+  text-decoration: none;
+  color: white;
+  background: #2176ff;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 2px;
+}
 /*# sourceMappingURL=style.css.map */
