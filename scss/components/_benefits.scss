@@ -1,0 +1,76 @@
+$benefits-accent-1: #4caf50;
+$benefits-accent-2: red;
+$benefits-money: orange;
+
+.c-benefits {
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+    padding: 5px 15px;
+    width: 48%;
+
+    &__title {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    &__list {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    &__list-item {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        gap: 0 10px;
+        grid-template-areas: "bullet title"
+                             ". text ";
+        margin-bottom: 15px;
+        &__bullet {
+            grid-area: bullet;
+            color: $benefits-accent-1;
+            border: 2px solid;
+            // display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5em;
+
+            &--money {
+                color: $benefits-money;
+            }
+            &--total {
+                border: none;
+                color: $benefits-accent-2;
+            }
+        }
+        &__title {
+            grid-area: title;
+            font-size: 1.4em;
+            margin: 0;
+            align-self: center;
+            
+            &--money {
+                font-weight: 500;
+                color: orange;
+            }
+            &--total {
+                color: $benefits-accent-2;
+                font-weight: bold;
+            }
+        }
+        &__text {
+            grid-area: text;
+            margin: 0;
+        }
+    }
+    &__alert {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+}
