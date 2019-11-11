@@ -1,0 +1,8 @@
+.u-arranger {
+    padding: 10px 0;
+    display: flex;
+    // border: 1px solid green;
+    &--center {
+        justify-content: center;
+    }
+}

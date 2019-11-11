@@ -29,12 +29,14 @@ body {
   border: 1px solid red;
 }
 
-.u-centerer {
+.u-arranger {
   padding: 10px 0;
-  border: 1px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.u-arranger--center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
