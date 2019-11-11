@@ -12,6 +12,7 @@
     box-shadow: $shadow;
     display: inline-block;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+    border: 2px solid $color__accent-main; 
     &:hover {
         transform: translateY(-5px);
     }
@@ -22,5 +23,14 @@
     }
     &--big {
         font-size: 2em;
+    }
+
+    &--hollow {
+        background: transparent;
+        color: $color__accent-main;
+        &:hover {
+            background: $color__accent-main;
+            color: white;
+        }
     }
 }

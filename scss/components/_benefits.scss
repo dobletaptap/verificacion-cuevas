@@ -8,10 +8,19 @@ $benefits-money: orange;
     box-shadow: $shadow;
     padding: 5px 15px;
     width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     &__title {
         text-align: center;
         font-size: 1.6em;
+        color: $benefits-accent-1;
+        font-weight: 500;
+
+        &--money {
+            color: $benefits-money;
+        }
     }
 
     &__list {
