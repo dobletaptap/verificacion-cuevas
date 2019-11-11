@@ -11,6 +11,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#tortuga {
+  background-image: url("../img/turtle.jpg");
+  background-position: center;
+}
+
 .u-wrapper {
   max-width: 1024px;
   height: inherit;
@@ -102,6 +107,7 @@ body {
   -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
   transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
   border: 2px solid #2176ff;
+  margin: 0 5px;
 }
 
 .c-cta:hover {

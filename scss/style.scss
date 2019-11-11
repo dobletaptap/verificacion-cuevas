@@ -30,6 +30,11 @@ body {
     color: $color__text;
     font-family: $font;
 }
+
+#tortuga {
+    background-image: url('../img/turtle.jpg');
+    background-position: center;
+}
 // ? <--------- Utilities --------->
 @import './utils/wrapper';
 @import './utils/arranger';

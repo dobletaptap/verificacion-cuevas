@@ -12,7 +12,8 @@
     box-shadow: $shadow;
     display: inline-block;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
-    border: 2px solid $color__accent-main; 
+    border: 2px solid $color__accent-main;
+    margin: 0 5px; 
     &:hover {
         transform: translateY(-5px);
     }
