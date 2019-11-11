@@ -11,6 +11,35 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.u-wrapper {
+  max-width: 1024px;
+  height: inherit;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: inherit;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  -webkit-box-flex: inherit;
+      -ms-flex: inherit;
+          flex: inherit;
+  border: 1px solid red;
+}
+
+.u-centerer {
+  padding: 10px 0;
+  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .c-header {
   background: #2176ff;
   display: -webkit-box;
@@ -48,6 +77,7 @@ body {
 }
 
 .c-cta {
+  font-size: 1.2em;
   -webkit-box-sizing: initial;
           box-sizing: initial;
   text-decoration: none;
@@ -59,6 +89,7 @@ body {
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  display: inline-block;
 }
 
 .c-cta--big {
@@ -136,23 +167,5 @@ body {
 
 .c-calendar__cell--blue {
   background: #03a9f4;
-}
-
-.u-wrapper {
-  max-width: 1024px;
-  height: inherit;
-  margin: 0 auto;
-  padding: 0 10px;
-  display: inherit;
-  -webkit-box-pack: inherit;
-      -ms-flex-pack: inherit;
-          justify-content: inherit;
-  -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
-  -webkit-box-flex: inherit;
-      -ms-flex: inherit;
-          flex: inherit;
-  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .c-cta {
-    
+    font-size: 1.2em;
     box-sizing: initial;
     text-decoration: none;
     color: white;
@@ -9,7 +9,7 @@
     padding: 12px 24px;
     border-radius: $border-radius;
     box-shadow: $shadow;
-
+    display: inline-block;
     &--big {
         font-size: 2em;
     }

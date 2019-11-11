@@ -30,6 +30,10 @@ body {
     color: $color__text;
     font-family: $font;
 }
+// ? <--------- Utilities --------->
+@import './utils/wrapper';
+@import './utils/ceterer';
+// ? </--------- Utilities --------->
 
 // ? <--------- COMPONENTS --------->
 @import './components/header';
@@ -38,7 +42,3 @@ body {
 @import './components/heading';
 @import './components/calendar';
 // ? </--------- COMPONENTS --------->
-
-// ? <--------- Utilities --------->
-@import './utils/wrapper'
-// ? </--------- Utilities --------->
