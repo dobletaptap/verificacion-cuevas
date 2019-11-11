@@ -1,0 +1,16 @@
+.c-cta {
+    
+    box-sizing: initial;
+    text-decoration: none;
+    color: white;
+    background: $color__accent-main;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+
+    &--big {
+        font-size: 2em;
+    }
+}

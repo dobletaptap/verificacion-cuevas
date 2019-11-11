@@ -47,6 +47,24 @@ body {
   color: white;
 }
 
+.c-cta {
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+  text-decoration: none;
+  color: white;
+  background: #2176ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.c-cta--big {
+  font-size: 2em;
+}
+
 .c-hero {
   height: 70vh;
 }
@@ -60,19 +78,9 @@ body {
   color: #828382;
 }
 
-.c-hero__cta {
-  -webkit-box-sizing: initial;
-          box-sizing: initial;
-  text-decoration: none;
-  color: white;
-  background: #2176ff;
+.c-heading {
   font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 12px 24px;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  text-align: center;
 }
 
 .c-calendar {
@@ -82,6 +90,8 @@ body {
   display: grid;
   -ms-grid-columns: auto 1fr 1fr;
       grid-template-columns: auto 1fr 1fr;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .c-calendar__cell {
@@ -93,6 +103,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
   font-weight: 500;
 }
@@ -110,7 +123,7 @@ body {
 }
 
 .c-calendar__cell--pink {
-  background: #ec407a;
+  background: #ff4081;
 }
 
 .c-calendar__cell--red {
