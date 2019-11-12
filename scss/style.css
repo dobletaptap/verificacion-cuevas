@@ -14,6 +14,15 @@ body {
 #tortuga {
   background-image: url("../img/turtle.jpg");
   background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#guacamaya {
+  padding: 100px 0;
+  background-image: url("../img/guacamaya.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .u-wrapper {
@@ -31,7 +40,6 @@ body {
   -webkit-box-flex: inherit;
       -ms-flex: inherit;
           flex: inherit;
-  border: 1px solid red;
 }
 
 .u-arranger {
@@ -51,6 +59,13 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.u-arranger--left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .c-header {

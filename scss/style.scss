@@ -34,6 +34,14 @@ body {
 #tortuga {
     background-image: url('../img/turtle.jpg');
     background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+#guacamaya {
+    padding: 100px 0;
+    background-image: url('../img/guacamaya.jpg');
+    background-position: center;
+    background-size: cover;
 }
 // ? <--------- Utilities --------->
 @import './utils/wrapper';
