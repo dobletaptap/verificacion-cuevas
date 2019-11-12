@@ -1,0 +1,22 @@
+.c-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 10px;
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+
+    &__column {
+        padding-left: 20px;
+        align-self: center;
+    }
+    &__text {
+        font-size: 1.2em;
+    }
+    &__icon {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}

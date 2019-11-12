@@ -186,6 +186,36 @@ section:nth-child(even) {
   color: #828382;
 }
 
+.c-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 0 10px;
+  background: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.c-info__column {
+  padding-left: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.c-info__text {
+  font-size: 1.2em;
+}
+
+.c-info__icon {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 .c-heading {
   font-size: 2em;
   text-align: center;
@@ -265,6 +295,11 @@ section:nth-child(even) {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.c-benefits--no-shadow {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .c-benefits__title {

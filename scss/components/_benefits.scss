@@ -12,6 +12,10 @@ $benefits-money: orange;
     flex-direction: column;
     justify-content: space-between;
 
+    &--no-shadow {
+        box-shadow: none;
+    }
+
     &__title {
         text-align: center;
         font-size: 1.6em;
