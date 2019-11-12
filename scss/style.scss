@@ -30,10 +30,12 @@ body {
     color: $color__text;
     font-family: $font;
 }
-
-// section:nth-child(even) {
-//     background: $color__body-3;
-// }
+section {
+    padding: 50px 0;
+}
+section:nth-child(even) {
+    background: $color__body-3;
+}
 
 #tortuga {
     background-image: url('../img/turtle.jpg');

@@ -11,6 +11,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+section {
+  padding: 50px 0;
+}
+
+section:nth-child(even) {
+  background: #F1F4FA;
+}
+
 #tortuga {
   background-image: url("../img/turtle.jpg");
   background-position: center;
@@ -177,6 +185,7 @@ body {
 .c-heading {
   font-size: 2em;
   text-align: center;
+  margin-top: 0;
 }
 
 .c-calendar {
