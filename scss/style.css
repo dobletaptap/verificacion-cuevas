@@ -426,4 +426,23 @@ section:nth-child(even) {
 .c-map__link:hover {
   color: #2176ff;
 }
+
+.c-faqs {
+  background: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  padding: 15px 20px;
+}
+
+.c-faqs__question {
+  color: #2176ff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.c-faqs__answer {
+  font-size: 1.2em;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+.c-faqs {
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+    padding: 15px 20px;
+
+    &__question {
+        color: $color__accent-main;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    &__answer {
+        font-size: 1.2em;
+        margin: 0;
+    }
+}
