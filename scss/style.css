@@ -15,7 +15,7 @@ section {
   padding: 50px 0;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   background: #F1F4FA;
 }
 
@@ -354,15 +354,20 @@ textarea {
 
 .c-hero {
   height: 70vh;
+  background-image: url("../img/hero.png");
+  background-size: cover;
+  background-position: left;
+  color: white;
 }
 
 .c-hero__title {
   font-size: 3em;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 .c-hero__subtitle {
   font-size: 1.6em;
-  color: #828382;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 .c-info {

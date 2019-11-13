@@ -1,11 +1,17 @@
 .c-hero {
     height: 70vh;
+    background-image: url('../img/hero.png');
+    background-size: cover;
+    background-position: left;
+    color: white;
+    
     &__title {
         font-size: 3em;
+        text-shadow: 1px 1px rgba(0,0,0,.25);
     }
-
+    
     &__subtitle {
         font-size: 1.6em;
-        color: $color__text--light;
+        text-shadow: 1px 1px rgba(0,0,0,.25);
     }
 }
