@@ -4,7 +4,8 @@
     justify-content: space-between;
     flex: 1;
     box-shadow: $shadow;
-    
+    font-size: 1.2em;
+    font-weight: 500;
     &__list {
         display: flex;
         padding: 0;
@@ -13,13 +14,14 @@
     &__item {
         list-style: none;
         margin-left: 12px;
-        &:hover {
-            text-decoration: underline;
-        }
     }
     
     &__link {
         text-decoration: none;
         color: white;
+        &:hover {
+            // text-decoration: underline;
+            color: limegreen;
+        }
     }
 }
