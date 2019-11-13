@@ -1,0 +1,78 @@
+.c-form {
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+    padding:50px;
+    &__title {
+        color: $color__accent-main;
+        margin-top: 0;
+        font-size: 2em;
+    }
+
+    &__description {
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
+
+    &__label {
+        font-weight: 500;
+        font-size: 1em;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+
+        &--small {
+            margin: 5px 0;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        font-family: $font;
+        font-size: 1.2em;
+        border: 1px solid gray;
+        background: darken(#fff, 1%);
+        padding: 5px;
+        border-radius: 2px;
+        outline: none;
+    }
+
+    &__input-divider {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__input-division {
+        width: 49%;
+    }
+
+    &__radio {
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    
+    &__button {
+        font-family: $font;
+        box-sizing: initial;
+        margin-top: 20px;
+        color: white;
+        background: $color__accent-main;
+        border: none;
+        letter-spacing: 3px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        font-size: 2em;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+        outline: none;
+        border-radius: 5px;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+        &:active {
+            transform: translateY(5px);
+        }
+    }
+}

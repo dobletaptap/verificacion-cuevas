@@ -53,6 +53,7 @@ section:nth-child(even) {
 @import './utils/wrapper';
 @import './utils/arranger';
 @import './utils/container';
+@import './utils/reset';
 // ? </--------- Utilities --------->
 
 // ? <--------- COMPONENTS --------->
@@ -65,4 +66,5 @@ section:nth-child(even) {
 @import './components/benefits';
 @import './components/map';
 @import './components/faqs';
+@import './components/form';
 // ? </--------- COMPONENTS --------->
