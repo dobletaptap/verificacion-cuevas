@@ -1,0 +1,16 @@
+.c-footer {
+    background: $color__body-2;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__credit {
+        font-weight: 500;
+        color: $color__text;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

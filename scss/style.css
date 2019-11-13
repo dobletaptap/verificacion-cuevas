@@ -713,4 +713,28 @@ textarea {
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
 }
+
+.c-footer {
+  background: #FCFCFC;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-footer__credit {
+  font-weight: 500;
+  color: #404040;
+  text-decoration: none;
+}
+
+.c-footer__credit:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */
