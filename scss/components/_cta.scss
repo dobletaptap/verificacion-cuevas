@@ -28,6 +28,18 @@ $cta-green: #4caf50;
         font-size: 2em;
     }
 
+    &--mini {
+        font-size: inherit;
+        text-transform: initial;
+        padding: 6px 12px;
+        border-color: white;
+        &:hover {
+            background: white;
+            color: $color__accent-main;
+            transform: translateY(0px);
+        }
+    }
+
     &--hollow {
         background: transparent;
         color: $color__accent-main;

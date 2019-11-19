@@ -280,6 +280,9 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0;
 }
 
@@ -331,6 +334,20 @@ textarea {
 
 .c-cta--big {
   font-size: 2em;
+}
+
+.c-cta--mini {
+  font-size: inherit;
+  text-transform: initial;
+  padding: 6px 12px;
+  border-color: white;
+}
+
+.c-cta--mini:hover {
+  background: white;
+  color: #2176ff;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 .c-cta--hollow {
