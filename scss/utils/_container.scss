@@ -3,4 +3,9 @@
     &--half {
         width: 48%;
     }
+
+    @include ipad {
+        width: 70%;
+        margin: 0 auto;
+    }
 }

@@ -14,4 +14,8 @@
         font-size: 1.2em;
         margin: 0;
     }
+
+    @include ipad {
+        font-size: 14px;
+    }
 }

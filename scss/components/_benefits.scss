@@ -86,4 +86,11 @@ $benefits-money: orange;
         font-size: 1.5em;
         font-weight: 500;
     }
+
+    @include ipad {
+        font-size: 14px;
+        &__list {
+            width: 90%;
+        }
+    } 
 }

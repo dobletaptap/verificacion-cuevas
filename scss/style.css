@@ -80,6 +80,13 @@ section:nth-child(odd) {
   width: 48%;
 }
 
+@media screen and (max-width: 768px) {
+  .u-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
 /**
  * 1. Correct font size not being inherited in all browsers.
  * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
@@ -300,6 +307,12 @@ textarea {
   color: limegreen;
 }
 
+@media screen and (max-width: 768px) {
+  .c-header {
+    font-size: 1em;
+  }
+}
+
 .c-cta {
   font-size: 1.3em;
   -webkit-box-sizing: initial;
@@ -412,6 +425,12 @@ textarea {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .c-info {
+    font-size: 14px;
+  }
 }
 
 .c-heading {
@@ -591,6 +610,15 @@ textarea {
   font-weight: 500;
 }
 
+@media screen and (max-width: 768px) {
+  .c-benefits {
+    font-size: 14px;
+  }
+  .c-benefits__list {
+    width: 90%;
+  }
+}
+
 .c-map {
   background: white;
   border-radius: 2px;
@@ -642,6 +670,12 @@ textarea {
 .c-faqs__answer {
   font-size: 1.2em;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .c-faqs {
+    font-size: 14px;
+  }
 }
 
 .c-form {
