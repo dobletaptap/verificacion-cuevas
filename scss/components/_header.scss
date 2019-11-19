@@ -6,6 +6,8 @@
     box-shadow: $shadow;
     font-size: 1.2em;
     font-weight: 500;
+    position: fixed;
+    width: 100%;
     &__list {
         display: flex;
         padding: 0;
