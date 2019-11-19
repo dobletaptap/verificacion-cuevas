@@ -31,10 +31,10 @@ $cta-green: #4caf50;
     &--hollow {
         background: transparent;
         color: $color__accent-main;
-        &:hover {
-            background: $color__accent-main;
-            color: white;
-        }
+        // &:hover {
+        //     background: $color__accent-main;
+        //     color: white;
+        // }
     }
 
     &--green {
