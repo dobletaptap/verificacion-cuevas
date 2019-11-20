@@ -23,14 +23,26 @@ section:nth-child(odd) {
   background-image: url("../img/turtle.jpg");
   background-position: center;
   background-size: cover;
-  padding: 50px 0;
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 414px) {
+  #tortuga {
+    padding: 50px 0;
+  }
 }
 
 #guacamaya {
-  padding: 50px 0;
+  padding: 100px 0;
   background-image: url("../img/guacamaya.jpg");
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (max-width: 414px) {
+  #guacamaya {
+    padding: 50px 0;
+  }
 }
 
 .u-wrapper {
@@ -67,10 +79,6 @@ section:nth-child(odd) {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .u-arranger--left {
@@ -78,6 +86,15 @@ section:nth-child(odd) {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 414px) {
+  .u-arranger--divide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .u-container--half {

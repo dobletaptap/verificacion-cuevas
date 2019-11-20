@@ -67,14 +67,22 @@ section:nth-child(odd) {
     background-image: url('../img/turtle.jpg');
     background-position: center;
     background-size: cover;
-    padding: 50px 0;
+    padding: 100px 0;
+
+    @include iphone-8-plus {
+        padding: 50px 0;
+    }
 }
 
 #guacamaya {
-    padding: 50px 0;
+    padding: 100px 0;
     background-image: url('../img/guacamaya.jpg');
     background-position: center;
     background-size: cover;
+
+    @include iphone-8-plus {
+        padding: 50px 0;
+    }
 }
 
 // ? <--------- Utilities --------->

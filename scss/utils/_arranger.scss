@@ -7,9 +7,14 @@
     }
     &--divide {
         justify-content: space-between;
-        flex-direction: column;
     }
     &--left {
         flex-direction: row-reverse;
+    }
+    
+    @include iphone-8-plus {
+        &--divide {
+            flex-direction: column;
+        }
     }
 }
