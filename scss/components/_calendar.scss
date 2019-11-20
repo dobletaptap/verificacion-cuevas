@@ -44,4 +44,9 @@ $calendar-blue: #03a9f4;
             background: $calendar-blue;
         }
     }
+
+    @include iphone-8-plus {
+        font-size: 12px;
+        text-align: center;
+    }
 }

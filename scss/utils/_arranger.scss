@@ -7,6 +7,7 @@
     }
     &--divide {
         justify-content: space-between;
+        flex-direction: column;
     }
     &--left {
         flex-direction: row-reverse;

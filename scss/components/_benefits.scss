@@ -92,5 +92,9 @@ $benefits-money: orange;
         &__list {
             width: 90%;
         }
-    } 
+    }
+    
+    @include iphone-8-plus {
+        margin: 10px 0;
+    }
 }

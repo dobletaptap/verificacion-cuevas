@@ -75,4 +75,18 @@
             transform: translateY(5px);
         }
     }
+
+    @include iphone-8-plus {
+        font-size: 14px;
+        padding: 20px;
+
+        &__input-divider {
+            align-items: flex-end;
+        }
+
+        &__button-container {
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

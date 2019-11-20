@@ -8,4 +8,8 @@
         width: 70%;
         margin: 0 auto;
     }
+
+    @include iphone-8-plus {
+        width: 100%;
+    }
 }

@@ -60,4 +60,11 @@ $cta-green: #4caf50;
         border-color: $cta-green;
         
     }
+
+    @include iphone-8-plus {
+        padding: 12px 10px;
+        &--big {
+            font-size: 1.5em;
+        }
+    }
 }

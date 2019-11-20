@@ -28,4 +28,8 @@
             color: $color__accent-main;
         }
     }
+
+    @include iphone-8-plus {
+        font-size: 12px;
+    }
 }

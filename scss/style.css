@@ -23,11 +23,11 @@ section:nth-child(odd) {
   background-image: url("../img/turtle.jpg");
   background-position: center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 #guacamaya {
-  padding: 100px 0;
+  padding: 50px 0;
   background-image: url("../img/guacamaya.jpg");
   background-position: center;
   background-size: cover;
@@ -67,6 +67,10 @@ section:nth-child(odd) {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .u-arranger--left {
@@ -84,6 +88,12 @@ section:nth-child(odd) {
   .u-container {
     width: 70%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .u-container {
+    width: 100%;
   }
 }
 
@@ -281,6 +291,7 @@ textarea {
   font-weight: 500;
   position: fixed;
   width: 100%;
+  z-index: 9;
 }
 
 .c-header__list {
@@ -379,11 +390,20 @@ textarea {
   border-color: #4caf50;
 }
 
+@media screen and (max-width: 414px) {
+  .c-cta {
+    padding: 12px 10px;
+  }
+  .c-cta--big {
+    font-size: 1.5em;
+  }
+}
+
 .c-hero {
   height: 70vh;
   background-image: url("../img/hero.png");
   background-size: cover;
-  background-position: left;
+  background-position: center;
   color: white;
 }
 
@@ -395,6 +415,17 @@ textarea {
 .c-hero__subtitle {
   font-size: 1.6em;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 414px) {
+  .c-hero {
+    font-size: 14px;
+    text-align: center;
+    height: 50vh;
+  }
+  .c-hero__title {
+    margin-bottom: 0;
+  }
 }
 
 .c-info {
@@ -430,6 +461,16 @@ textarea {
 @media screen and (max-width: 768px) {
   .c-info {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .c-info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .c-info__column {
+    padding: 0 10px;
   }
 }
 
@@ -493,6 +534,13 @@ textarea {
 
 .c-calendar__cell--blue {
   background: #03a9f4;
+}
+
+@media screen and (max-width: 414px) {
+  .c-calendar {
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
 .c-benefits {
@@ -619,6 +667,12 @@ textarea {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .c-benefits {
+    margin: 10px 0;
+  }
+}
+
 .c-map {
   background: white;
   border-radius: 2px;
@@ -651,6 +705,12 @@ textarea {
 
 .c-map__link:hover {
   color: #2176ff;
+}
+
+@media screen and (max-width: 414px) {
+  .c-map {
+    font-size: 12px;
+  }
 }
 
 .c-faqs {
@@ -765,6 +825,26 @@ textarea {
 .c-form__button:active {
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
+}
+
+@media screen and (max-width: 414px) {
+  .c-form {
+    font-size: 14px;
+    padding: 20px;
+  }
+  .c-form__input-divider {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .c-form__button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .c-footer {
