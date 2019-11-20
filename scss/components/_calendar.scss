@@ -48,5 +48,6 @@ $calendar-blue: #03a9f4;
     @include iphone-8-plus {
         font-size: 12px;
         text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

@@ -540,6 +540,8 @@ textarea {
   .c-calendar {
     font-size: 12px;
     text-align: center;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
