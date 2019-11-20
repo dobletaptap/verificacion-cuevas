@@ -9,13 +9,17 @@
     position: fixed;
     width: 100%;
     z-index: 9;
-    
+
     &__list {
         display: flex;
         align-items: center;
         padding: 0;
     }
-    
+
+    &__mobile-navbar {
+        display: none;
+    }
+
     &__item {
         list-style: none;
         margin-left: 12px;
@@ -28,9 +32,62 @@
             // text-decoration: underline;
             color: limegreen;
         }
+
+        &--menu {
+            &:hover {
+                color: white;
+            }
+        }
     }
     
     @include ipad {
         font-size: 1em;
+    }
+
+    @include iphone-8-plus {
+        &__navbar {
+            font-size: 1.2em;
+            position: fixed;
+            width: 60vw;
+            height: 100vh;
+            background: $color__accent-main;
+            top: 0;
+            right: -60vw;
+            transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+            &--active {
+                right: 0;
+            }
+        }
+        
+        &__mobile-navbar {
+            display: block;
+            z-index: 999;
+        }
+
+        &__list {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        &__mobile-list {
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+
+        &__item {
+            margin: 15px 0px;
+            &:last-child {
+                display: none;
+            }
+        }
+
+        &__mobile-item {
+            list-style: none;
+            margin: 10px;
+        }
+
     }
 }
