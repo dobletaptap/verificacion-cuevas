@@ -421,6 +421,7 @@ textarea {
   transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
   border: 2px solid #2176ff;
   margin: 0 5px;
+  text-align: center;
 }
 
 .c-cta:hover {
