@@ -309,6 +309,7 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 9;
+  top: 0;
 }
 
 .c-header__list {
@@ -927,6 +928,43 @@ textarea {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.c-blog {
+  margin-top: 77px;
+}
+
+.c-blog__cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url("../../img/car-engine.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../img/car-engine.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 1.5em;
+  min-height: 330px;
+}
+
+.c-blog__body {
+  padding-top: 20px;
+}
+
+.c-blog__subtitle {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.c-blog__paragraph {
+  font-size: 1.25em;
+  margin: 1em 0;
+  line-height: 1.6em;
 }
 
 .c-footer {

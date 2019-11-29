@@ -1,0 +1,30 @@
+.c-blog {
+    margin-top: 77px;
+    &__cover {
+        display: flex;
+        align-items:  center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url("../../img/car-engine.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-size: 1.5em;
+        min-height: 330px;
+    }
+
+    &__body {
+        padding-top: 20px;
+    }
+
+    &__subtitle {
+        font-size: 1.6em;
+        line-height: 1.6em;
+        border-bottom: 1px solid #d3d3d3;
+    }
+
+    &__paragraph {
+        font-size: 1.25em;
+        margin: 1em 0;
+        line-height: 1.6em;
+    }
+}
