@@ -967,6 +967,15 @@ textarea {
   line-height: 1.6em;
 }
 
+.c-cta-banner {
+  padding: 20px 0;
+  background: #2176ff0d;
+}
+
+.c-cta-banner__title {
+  font-size: 1.3em;
+}
+
 .c-footer {
   background: #FCFCFC;
   min-height: 50px;
