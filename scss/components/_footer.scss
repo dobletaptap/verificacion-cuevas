@@ -1,12 +1,12 @@
 .c-footer {
-    background: $color__body-2;
+    background: darken($color__accent-main, 35%);
     min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     &__credit {
         font-weight: 500;
-        color: $color__text;
+        color: #F2F2F2;
         text-decoration: none;
         
         &:hover {
