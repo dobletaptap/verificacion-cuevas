@@ -27,4 +27,44 @@
         margin: 1em 0;
         line-height: 1.6em;
     }
+
+    &__list-item {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        gap: 0 10px;
+        grid-template-areas: "bullet title"
+                             ". text ";
+        margin-bottom: 15px;
+        
+        &__bullet {
+            grid-area: bullet;
+            color: $color__accent-main;
+            // display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            font-size: 2em;
+        }
+
+        &__title {
+            grid-area: title;
+            margin: 0;
+            align-self: center;
+            font-size: 2em;
+            line-height: 1.6em;
+            font-weight: 500;
+            // border-bottom: 1px solid #d3d3d3;
+        }
+
+        &__text {
+            grid-area: text;
+            font-size: 1.25em;
+            margin: 0 0 1em 0;
+            line-height: 1.6em;
+            color: #606164;
+        }
+    }
+
+
 }
