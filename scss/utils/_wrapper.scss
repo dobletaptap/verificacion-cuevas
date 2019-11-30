@@ -7,5 +7,9 @@
     justify-content: inherit;
     align-items: inherit;
     flex: inherit;
+
+    &--blog {
+        max-width: 850px;
+    }
     // border: 1px solid red;
 }
