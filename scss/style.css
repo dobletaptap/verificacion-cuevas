@@ -26,7 +26,7 @@ section:nth-child(odd) {
   padding: 100px 0;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   #tortuga {
     padding: 50px 0;
   }
@@ -39,7 +39,7 @@ section:nth-child(odd) {
   background-size: cover;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   #guacamaya {
     padding: 50px 0;
   }
@@ -92,7 +92,7 @@ section:nth-child(odd) {
           flex-direction: row-reverse;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .u-arranger--divide {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -112,7 +112,7 @@ section:nth-child(odd) {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .u-container {
     width: 100%;
   }
@@ -361,7 +361,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-header__navbar {
     font-size: 1.2em;
     position: fixed;
@@ -481,7 +481,7 @@ textarea {
   border-color: #4caf50;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-cta {
     padding: 12px 8px;
     text-align: center;
@@ -511,7 +511,7 @@ textarea {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-hero {
     font-size: 14px;
     text-align: center;
@@ -558,7 +558,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-info {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -630,7 +630,7 @@ textarea {
   background: #03a9f4;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-calendar {
     font-size: 12px;
     text-align: center;
@@ -762,7 +762,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-benefits {
     margin: 10px 0;
   }
@@ -802,7 +802,7 @@ textarea {
   color: #2176ff;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-map {
     font-size: 12px;
   }
@@ -922,7 +922,7 @@ textarea {
           transform: translateY(5px);
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-form {
     font-size: 14px;
     padding: 20px;
@@ -1033,7 +1033,7 @@ textarea {
   color: #606164;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-blog {
     font-size: 11px;
   }
@@ -1112,7 +1112,7 @@ textarea {
   background: #0051d4;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-cta-banner {
     text-align: center;
   }
@@ -1134,7 +1134,7 @@ textarea {
   gap: 15px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-suggestions__cards-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1187,7 +1187,7 @@ textarea {
   font-size: 1.1em;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-card__cover {
     height: 110px;
   }
