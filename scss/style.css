@@ -1126,6 +1126,13 @@ textarea {
   gap: 15px;
 }
 
+@media screen and (max-width: 414px) {
+  .c-suggestions__cards-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .c-card {
   border-radius: 8px;
   overflow: hidden;
