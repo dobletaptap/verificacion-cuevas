@@ -1,0 +1,13 @@
+.c-suggestions {
+    padding: 25px 0;
+
+    &__title {
+        font-weight: 500;
+    }
+
+    &__cards-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+}
