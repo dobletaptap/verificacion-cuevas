@@ -316,6 +316,10 @@ textarea {
   top: 0;
 }
 
+.c-header__logo {
+  width: 80px;
+}
+
 .c-header__list {
   display: -webkit-box;
   display: -ms-flexbox;
