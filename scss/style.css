@@ -1110,6 +1110,12 @@ textarea {
   background: #0051d4;
 }
 
+@media screen and (max-width: 414px) {
+  .c-cta-banner {
+    text-align: center;
+  }
+}
+
 .c-suggestions {
   padding: 25px 0;
 }
@@ -1176,6 +1182,13 @@ textarea {
 .c-card__title {
   color: #2176ff;
   font-weight: 500;
+  font-size: 1.1em;
+}
+
+@media screen and (max-width: 414px) {
+  .c-card__cover {
+    height: 110px;
+  }
 }
 
 .c-footer {

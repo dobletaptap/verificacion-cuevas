@@ -34,5 +34,12 @@
     &__title {
         color: $color__accent-main;
         font-weight: 500;
+        font-size: 1.1em;
+    }
+
+    @include iphone-8-plus {
+        &__cover {
+            height: 110px;
+        }
     }
 }

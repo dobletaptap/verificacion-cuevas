@@ -50,4 +50,8 @@
             background: darken($color__accent-main, 15%);
         }
     }
+
+    @include iphone-8-plus {
+        text-align: center;
+    }
 }
