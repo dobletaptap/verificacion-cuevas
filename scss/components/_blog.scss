@@ -7,9 +7,12 @@
         background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url("../img/car-engine.jpg");
         background-size: cover;
         background-position: center;
-        color: white;
-        font-size: 1.5em;
         min-height: 330px;
+    }
+    
+    &__title {
+        color: white;
+        font-size: 3em;
     }
 
     &__body {
@@ -66,5 +69,20 @@
         }
     }
 
+    @include iphone-8-plus {
+        font-size: 11px;
+
+        &__cover {
+            min-height: 200px;
+        }
+
+        &__list-item {
+            gap: 0;
+            &__bullet {
+                align-items: flex-start;
+                line-height: 1.6em;
+            }
+        }
+    }
 
 }
