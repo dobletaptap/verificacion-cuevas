@@ -122,6 +122,11 @@
         const menuButton = document.querySelector('#menu-button')
         const menu = document.querySelector('#menu')
         const menuItems = document.querySelectorAll('.c-header__item')
+        const scheduleButton = document.querySelector('#button')
+
+        scheduleButton.addEventListener('click', () => {
+            fbq('track', 'Schedule');
+        })
         
         menuButton.addEventListener('click', () => {
             menu.classList.toggle('c-header__navbar--active')
