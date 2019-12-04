@@ -55,8 +55,10 @@
             </nav>
         </div>
     </header>
-    <div class="c-month-banner">
-
+    <div class="c-month-banner c-month-banner--9-0">
+        <p class="c-month-banner__text">Toca verificar:</p>
+        <h3 class="c-month-banner__months">Noviembre - Diciembre</h3>
+        <h2 class="c-month-banner__plates">9 y 0</h2>
     </div>
     <section id="verifica">
         <div class="u-wrapper">
@@ -64,30 +66,29 @@
                 <h3 class="c-form__title" >Agenda tu cita</h3>
                 <p class="c-form__description" ><strong>¡No hagas filas!</strong> En menos de 1 minuto puedes agendar tu cita para verificar. Es fácil y rápido; solo necesitamos un par de datos tuyos y nosotros nos pondremos en contacto contigo para confirmar tu cita lo más pronto posible.</p>
                 <label class="c-form__label" for="">Nombre*:</label>
-                <input class="c-form__input" type="text" name="nombre" id="">
+                <input class="c-form__input" type="text" name="nombre" id="" required>
                 <div class="c-form__input-divider">
                     <div class="c-form__input-division">
                         <label class="c-form__label" for="">Marca y Modelo del vehículo:</label>
-                        <input class="c-form__input" type="text" name="modelo" id="">
-
+                        <input class="c-form__input" type="text" name="modelo" id="" required>
                     </div>
                     <div class="c-form__input-division">
                         <label class="c-form__label">Terminación de placa:</label>
-                        <input class="c-form__input" type="number" name="placa" id="">
+                        <input class="c-form__input" type="number" name="placa" id="" required>
                     </div>
                 </div>
                 <div class="c-form__input-divider">
                     <div class="c-form__input-division">
                         <label class="c-form__label">Correo electrónico:</label>
-                        <input class="c-form__input" type="email" name="correo" id="">
+                        <input class="c-form__input" type="email" name="correo" id="" required>
                     </div>
                     <div class="c-form__input-division">
                         <label class="c-form__label">Número de telefono/celular*:</label>
-                        <input class="c-form__input" type="tel" name="telefono" id="">
+                        <input class="c-form__input" type="tel" name="telefono" id="" required>
                     </div>
                 </div>
                 <label class="c-form__label">Fecha y hora que te gustaría tu cita*:</label>
-                <input class="c-form__input" type="text" name="fecha" id="">
+                <input class="c-form__input" type="text" name="fecha" id="" required>
                 <div class="c-form__button-container">
                     <button class="c-form__button" type="submit" value="Enviar" id="button">Enviar</button>
                 </div>

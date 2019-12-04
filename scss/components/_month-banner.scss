@@ -1,0 +1,49 @@
+.c-month-banner {
+    margin-top: 78px;
+
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    
+    &--1-2 {
+        background-image: linear-gradient( to right,  rgba(0,166,81,1) 9.3%, rgba(0,209,174,1) 118.3% );
+    }
+
+    &--3-4 {
+        background: linear-gradient(to right, #cb2d3e, #ef473a);
+    }
+
+    &--5-6 {
+        // background-image: linear-gradient( to right,  rgba(255,204,0,1), rgba(253,168,10,1));
+        background-image: linear-gradient( to right,  rgba(246,199,34,1), rgba(245,149,33,1));
+    }
+
+    &--7-8 {
+        background: linear-gradient(to right, #bc4e9c, #f80759);
+    }
+
+    &--9-0 {
+        // Gradient: 'Inbox' from uigradients
+        background: linear-gradient(to right, #457fca, #5691c8);
+    }
+
+    &__text {
+        margin-top: 0;
+        font-size: 1.2em;
+    }
+
+    &__months {
+        font-size: 2em;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    &__plates {
+        font-size: 4.5em;
+        margin: 0;
+    }
+
+    @include iphone-8-plus {
+        font-size: 12px;
+    }
+}

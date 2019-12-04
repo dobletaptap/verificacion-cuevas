@@ -1193,6 +1193,60 @@ textarea {
   }
 }
 
+.c-month-banner {
+  margin-top: 78px;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+
+.c-month-banner--1-2 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(9.3%, #00a651), color-stop(118.3%, #00d1ae));
+  background-image: linear-gradient(to right, #00a651 9.3%, #00d1ae 118.3%);
+}
+
+.c-month-banner--3-4 {
+  background: -webkit-gradient(linear, left top, right top, from(#cb2d3e), to(#ef473a));
+  background: linear-gradient(to right, #cb2d3e, #ef473a);
+}
+
+.c-month-banner--5-6 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f6c722), to(#f59521));
+  background-image: linear-gradient(to right, #f6c722, #f59521);
+}
+
+.c-month-banner--7-8 {
+  background: -webkit-gradient(linear, left top, right top, from(#bc4e9c), to(#f80759));
+  background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+.c-month-banner--9-0 {
+  background: -webkit-gradient(linear, left top, right top, from(#457fca), to(#5691c8));
+  background: linear-gradient(to right, #457fca, #5691c8);
+}
+
+.c-month-banner__text {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.c-month-banner__months {
+  font-size: 2em;
+  margin: 0;
+  font-weight: 500;
+}
+
+.c-month-banner__plates {
+  font-size: 4.5em;
+  margin: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .c-month-banner {
+    font-size: 12px;
+  }
+}
+
 .c-footer {
   background: #002a6e;
   min-height: 50px;
