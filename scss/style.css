@@ -1248,6 +1248,54 @@ textarea {
   }
 }
 
+.c-404 {
+  text-align: center;
+  height: calc(100vh - 50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c-404__image {
+  width: 350px;
+}
+
+.c-404__title {
+  font-size: 2em;
+}
+
+.c-404__text {
+  font-size: 1.3em;
+}
+
+.c-404__link {
+  color: #404040;
+  font-weight: 500;
+}
+
+.c-404__link:hover {
+  color: #2176ff;
+}
+
+@media screen and (max-width: 540px) {
+  .c-404 {
+    font-size: 12px;
+  }
+  .c-404__image {
+    width: 200px;
+  }
+}
+
 .c-footer {
   background: #002a6e;
   min-height: 50px;

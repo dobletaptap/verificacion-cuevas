@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="canonical" href="https://verificacioncuevas.com">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Verificación Vehicular en Xalapa | Verificación Cuevas 🚙</title>
+    <meta name="description" content="Encuéntranos en Ma. Enriqueta Camarillo #6 | 9:00am - 2:00pm y de 4:00pm - 6:30pm. Tan solo 2 cuadras atrás de la Nissan. No hagas filas ¡Agenda tu cita YA!" >
+</head>
+<body>
+    <header class="c-header">
+        <div class="u-wrapper">
+            <a href="/">
+                <img class="c-header__logo" src="./img/logo-white.svg" alt="">
+            </a>
+            <nav class="c-header__navbar" id="menu">
+                <ul class="c-header__list">
+                    <li class="c-header__item"><a href="/#beneficios" class="c-header__link">Beneficios</a></li>
+                    <li class="c-header__item"><a href="/#calendario" class="c-header__link">Calendario</a></li>
+                    <li class="c-header__item"><a href="/#contacto" class="c-header__link">Dónde verificar</a></li>
+                    <li class="c-header__item"><a href="/#que-es" class="c-header__link">¿Qué es?</a></li>
+                    <li class="c-header__item"><a href="/#tortuga" class="c-header__link">Medio Ambiente</a></li>
+                    <li class="c-header__item"><a href="/#preguntas" class="c-header__link">Preguntas frecuentes</a></li>
+                    <li class="c-header__item"><a href="/cita.html" class="c-cta c-cta--mini">Agendar</a></li>
+                </ul>
+            </nav>
+            <nav class="c-header__mobile-navbar">
+                <ul class="c-header__mobile-list">
+                    <li class="c-header__mobile-item"><a href="/cita.html" class="c-cta c-cta--mini">Agendar</a></li>
+                    <li class="c-header__mobile-item"><a id="menu-button" class="c-header__link c-header__link--menu">Menú</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="c-404">
+        <img src="./img/404.svg" alt="404 image" class="c-404__image">
+        <h2 class="c-404__title">¡Lo sentimos, no pudimos encontrar lo que buscabas!</h2>
+        <p class="c-404__text">Te invitamos a regresar a la página principal haciendo click <a class="c-404__link" href="/">aquí.</a></p>
+    </main>
+    <footer class="c-footer">
+        <a class="c-footer__credit" href="https://dobletaptap.com" target="_blank">Desarrollado por DobleTapTap</a>
+    </footer>
+    <script src="./js/zenscroll-min.js"></script>
+    <script>
+        const menuButton = document.querySelector('#menu-button')
+        const menu = document.querySelector('#menu')
+        const menuItems = document.querySelectorAll('.c-header__item')
+        
+        menuButton.addEventListener('click', () => {
+            menu.classList.toggle('c-header__navbar--active')
+        })
+
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                menu.classList.remove('c-header__navbar--active')
+            })
+        })
+    </script>
+</body>
+</html>

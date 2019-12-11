@@ -1,0 +1,34 @@
+.c-404 {
+    text-align: center;
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    &__image {
+        width: 350px;
+    }
+
+    &__title {
+        font-size: 2em;
+    }
+
+    &__text {
+        font-size: 1.3em;
+    }
+
+    &__link {
+        color: $color__text;
+        font-weight: 500;
+        &:hover {
+            color: $color__accent-main;
+        }
+    }
+
+    @include iphone-8-plus {
+        font-size: 12px;
+        &__image {
+            width: 200px;
+        }
+    }
+}
