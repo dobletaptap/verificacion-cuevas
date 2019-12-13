@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /scss/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://verificacioncuevas.com/sitemap/sitemap.xml
